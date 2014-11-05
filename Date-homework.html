@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<p id="date"</p>
+		<script>
+			var d = new Date();
+			var day = d.getDay();
+			
+			
+			
+			var daylist = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+			
+			var h = d.getHours();
+			var m = d.getMinutes();
+			var s = d.getSeconds();
+			
+			document.getElementById("date").innerHTML = daylist[day] h + ":" + m + ":" + s;
+					</script>
+	</body>
+</html>
